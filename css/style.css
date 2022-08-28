@@ -323,12 +323,6 @@ body {
   box-sizing: border-box;
 }
 
-.about-us-images {
-  flex: 1 1;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .about-us-heading {
   font-family: "Josefin Sans", sans-serif;
   font-size: 4rem;
@@ -386,4 +380,32 @@ body {
 .about-us-btn:hover .btn-arrow {
   margin-left: 1.5rem;
 }
+
+.about-us-images {
+  position: relative;
+  flex: 1 1;
+}
+
+.image {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  border: 0.2rem solid #b85d1c;
+}
+.image-1 {
+  transform: translate(-20%, -90%);
+}
+.image-2 {
+  transform: translate(-70%, -70%);
+}
+.image-3 {
+  transform: translate(-50%, -50%);
+}
+.image-4 {
+  transform: translate(-30%, -30%);
+}
+
 /* end of about us */
